@@ -164,4 +164,8 @@ Public Class MdiUnidad2
     Private Sub BtnEjericio5_Click(sender As Object, e As EventArgs) Handles BtnEjericio5.Click
         AbrirFormulario(FrmEjercicio5)
     End Sub
+
+    Private Sub BtnEjericio7_Click(sender As Object, e As EventArgs) Handles BtnEjericio7.Click
+        AbrirFormulario(FrmEjercicio7)
+    End Sub
 End Class
