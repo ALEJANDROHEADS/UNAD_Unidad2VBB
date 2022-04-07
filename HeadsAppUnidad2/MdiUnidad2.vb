@@ -125,9 +125,10 @@ Public Class MdiUnidad2
         OcultarSubMenu()
     End Sub
     Private Sub BtnEjericio20_Click(sender As Object, e As EventArgs) Handles BtnEjericio20.Click
-        MensajeItemInActivo("20")
-        Me.StatusBarInf.BackColor = ColorFondoMove
-        OcultarSubMenu()
+        AbrirFormulario(FrmEjercicio20)
+        'MensajeItemInActivo("20")
+        'Me.StatusBarInf.BackColor = ColorFondoMove
+        'OcultarSubMenu()
     End Sub
 
     Private FormActivo As Form = Nothing
